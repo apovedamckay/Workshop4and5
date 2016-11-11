@@ -32,7 +32,6 @@ export default class StatusUpdateEntry extends React.Component {
       </div>
       <div className="row">
       <div className="col-md-6">
-      19
       <div className="btn-group" role="group">
       <button type="button" className="btn btn-default">
       <span className="glyphicon glyphicon-camera"></span>
