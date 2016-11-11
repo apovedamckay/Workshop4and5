@@ -7,12 +7,12 @@ export default class CommentThread extends React.Component {
         {React.Children.map(this.props.children, function(child) {
           return (
             <li className="media">
-            {child}
+              {child}
             </li>
           )
         })}
         <li className="media">
-          <CommentEntry />
+          <CommentEntry onPost={this.props.onPost} />
         </li>
       </ul>
     )
